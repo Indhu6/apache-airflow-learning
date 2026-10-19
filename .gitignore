@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
